@@ -17,7 +17,7 @@ body {
   }
   body::before {
     content: "";
-    background: url('Back3.png');
+    background: url('Back3.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
