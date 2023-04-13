@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <div class="main-head">
+        <div class="left-head">
+            <div id="avarta"></div>
+            <p id = userName> <strong>Arthur Cap</strong></p>
+        </div>
+        <div class="right-head">
+            <div class="choice"><strong>Home</strong></div>
+            <div class="choice"><strong>To Do List</strong> </div>
+            <div class="choice"><strong>Music Control</strong></div>
+            <div class="choice"><strong>Calendar</strong></div>
+        </div>
+    </div>
+
+    <div class="main-body">
+        <div id="left-body" class ="flex-colum">
+            <div class="task-in-process">
+                <p class = work-description>Description</p>
+                        <p class = work-detail>Detai Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur aspernatur eligendi nisi eos commodi hic!</p>
+            </div>
+            <div class="count-time">
+                <p id="time-remain"> 00 : 00</p>
+                <ion-icon class = time-icon id = reset-time name="refresh-circle-outline"></ion-icon>
+                <ion-icon class = time-icon id = stop-time name="pause-circle-outline"></ion-icon>
+
+            </div>
+            <div class="clock">
+                <svg id="clock">
+                    <circle id = "clock1" cx="150" cy="150" r="140" stroke="white" stroke-width="2px" fill="none" />
+                </svg>
+            </div>
+            
+              
+        </div>
+        <div id="mid-body">
+            <p id="hour">00</p>
+            <p id="minute">00</p>
+            <p id = "second">00</p>
+
+        </div>
+        <div id="right-body">
+            <p id = right-body-title class="flex-colum "> <strong>Next Work</strong></p>
+
+            <div id="work-list">
+                <div class="Work open-animation" id = work1>
+                    <div class="left-work-bar flex-colum ">
+                        <p class = "task-time">8:15</p>
+                        <p class="duration"> Duration : 1h</p>
+                        <p class = task-priority>Priority : High</p>
+                    </div>
+                    <div class="mid-work-bar ">
+                        <p class = work-description>Description</p>
+                        <p class = work-detail>Detai Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur aspernatur eligendi nisi eos commodi hic!</p>
+                    </div>
+                    <button class="end-task-button flex-colum">Done </button>
+                </div>
+                <div class="Work open-animation" id = work2>
+                    <div class="left-work-bar flex-colum ">
+                        <p class = "task-time">8:15</p>
+                        <p class="duration"> Duration : 1h</p>
+                        <p class = task-priority>Priority : High</p>
+                    </div>
+                    <div class="mid-work-bar ">
+                        <p class = work-description>Description</p>
+                        <p class = work-detail>Detai Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur aspernatur eligendi nisi eos commodi hic!</p>
+                    </div>
+                    <button class="end-task-button flex-colum">Done </button>
+                </div>
+                <div class="Work open-animation" id = work3>
+                    <div class="left-work-bar flex-colum ">
+                        <p class = "task-time">8:15</p>
+                        <p class="duration"> Duration : 1h</p>
+                        <p class = task-priority>Priority : High</p>
+                    </div>
+                    <div class="mid-work-bar ">
+                        <p class = work-description>Description</p>
+                        <p class = work-detail>Detai Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur aspernatur eligendi nisi eos commodi hic!</p>
+                    </div>
+                    <div class="end-task-button flex-colum">Done </div>
+                </div>
+                <div class="Work open-animation" id = work4>
+                    <div class="left-work-bar flex-colum ">
+                        <p class = "task-time">8:15</p>
+                        <p class="duration"> Duration : 1h</p>
+                        <p class = task-priority>Priority : High</p>
+                    </div>
+                    <div class="mid-work-bar ">
+                        <p class = work-description>Description</p>
+                        <p class = work-detail>Detai Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur aspernatur eligendi nisi eos commodi hic!</p>
+                    </div>
+                    <div class="end-task-button flex-colum">Done </div>
+                </div>
+                <div class="Work open-animation" id = work5>
+                    <div class="left-work-bar flex-colum ">
+                        <p class = "task-time">8:15</p>
+                        <p class="duration"> Duration : 1h</p>
+                        <p class = task-priority>Priority : High</p>
+                    </div>
+                    <div class="mid-work-bar ">
+                        <p class = work-description>Description</p>
+                        <p class = work-detail>Detai Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur aspernatur eligendi nisi eos commodi hic!</p>
+                    </div>
+                    <button class="end-task-button flex-colum">Done </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="foot">
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
